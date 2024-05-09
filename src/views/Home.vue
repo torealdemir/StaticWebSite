@@ -26,7 +26,7 @@
   <div class="cutterin" :class="{'bg-light': isDarkMode, 'bg-dark': !isDarkMode}">
   </div>
 </div> 
-<div class="mb-5">
+<!-- <div class="mb-5">
 
     <div class="row gy-3">
         <div class="col-md-12">
@@ -52,11 +52,11 @@
             </div>
         </div>
     </div>
-</div>
-<div class="cutter d-flex align-items-center justify-content-center" :class="{'bg-dark': isDarkMode, 'cutter': !isDarkMode}" >
+</div> -->
+<!-- <div class="cutter d-flex align-items-center justify-content-center" :class="{'bg-dark': isDarkMode, 'cutter': !isDarkMode}" >
     <div class="cutterin" :class="{'bg-light': isDarkMode, 'bg-dark': !isDarkMode}">
     </div>
-</div>  
+</div>   -->
 
 
 
@@ -179,7 +179,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+// import axios from 'axios';
 import Footer from '@/components/Footer.vue'
 
 export default {
@@ -187,11 +187,11 @@ export default {
   components: {
     Footer,
   },
-  data() {
-    return {
-      contents: []
-    };
-  },
+  // data() {
+  //   return {
+  //     contents: []
+  //   };
+  // },
   computed: {
     isDarkMode: {
       get() {
@@ -203,44 +203,44 @@ export default {
     }
   },
   methods: {
-    loadContent() {
-      const accessToken = localStorage.getItem('access');
-      const refreshToken = localStorage.getItem('refresh');
+    // loadContent() {
+    //   const accessToken = localStorage.getItem('access');
+    //   const refreshToken = localStorage.getItem('refresh');
 
-      axios
-        .get('/ToCo/', {
-          headers: {
-            Authorization: `JWT ${accessToken}`
-          }
-        })
-        .then(response => {
-          console.log(response.data);
-          this.contents = response.data;
-        })
-        .catch(error => {
-          console.log(error);
-        });
-    },
-    deleteItem(contentId){
-      axios
-          .delete(`/ToCo/${contentId}/`)
-          .then(response => {
-            console.log(response)
-          });
-          this.loadContent();
-          window.location.reload()
-    },
-    getImageUrl(imagePath){
-      return `${imagePath}`
-  },
+    //   axios
+    //     .get('/ToCo/', {
+    //       headers: {
+    //         Authorization: `JWT ${accessToken}`
+    //       }
+    //     })
+    //     .then(response => {
+    //       console.log(response.data);
+    //       this.contents = response.data;
+    //     })
+    //     .catch(error => {
+    //       console.log(error);
+    //     });
+    // },
+  //   deleteItem(contentId){
+  //     axios
+  //         .delete(`/ToCo/${contentId}/`)
+  //         .then(response => {
+  //           console.log(response)
+  //         });
+  //         this.loadContent();
+  //         window.location.reload()
+  //   },
+  //   getImageUrl(imagePath){
+  //     return `${imagePath}`
+  // },
   toggleTheme() {
     this.isDarkMode = event.target.checked;
   },
   
 },
-mounted() {
-    this.loadContent();
-},
+  // mounted() {
+  //     this.loadContent();
+  // },
  
 
 }
