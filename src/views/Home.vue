@@ -26,37 +26,6 @@
   <div class="cutterin" :class="{'bg-light': isDarkMode, 'bg-dark': !isDarkMode}">
   </div>
 </div> 
-<!-- <div class="mb-5">
-
-    <div class="row gy-3">
-        <div class="col-md-12">
-            <div v-for="content in contents" v-bind:key="content.id" class="contentt card card mb-3 mt-3">
-                <div class="card-body mb-2 mx-4">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img class="img-fluid img-thumbnail" :src="getImageUrl(content.image)" alt="Content Image">
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center">
-                          <div>
-                            <h1 class="card-title">{{content.title}}</h1>
-                            <h3>{{ content.short_description }}</h3>
-                          </div>
-                        </div>    
-                    </div>
-                    <p class="mx-4">{{content.content}}</p>
-                    <p class="mx-4"><strong>Created at: {{ content.created_at }}</strong></p>
-                    <div class="d-flex justify-content-center">
-                        <button @click="deleteItem(content.id)" class="btn btn-danger">Delete!</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!-- <div class="cutter d-flex align-items-center justify-content-center" :class="{'bg-dark': isDarkMode, 'cutter': !isDarkMode}" >
-    <div class="cutterin" :class="{'bg-light': isDarkMode, 'bg-dark': !isDarkMode}">
-    </div>
-</div>   -->
 
 
 
@@ -203,48 +172,13 @@ export default {
     }
   },
   methods: {
-    // loadContent() {
-    //   const accessToken = localStorage.getItem('access');
-    //   const refreshToken = localStorage.getItem('refresh');
-
-    //   axios
-    //     .get('/ToCo/', {
-    //       headers: {
-    //         Authorization: `JWT ${accessToken}`
-    //       }
-    //     })
-    //     .then(response => {
-    //       console.log(response.data);
-    //       this.contents = response.data;
-    //     })
-    //     .catch(error => {
-    //       console.log(error);
-    //     });
-    // },
-  //   deleteItem(contentId){
-  //     axios
-  //         .delete(`/ToCo/${contentId}/`)
-  //         .then(response => {
-  //           console.log(response)
-  //         });
-  //         this.loadContent();
-  //         window.location.reload()
-  //   },
-  //   getImageUrl(imagePath){
-  //     return `${imagePath}`
-  // },
   toggleTheme() {
     this.isDarkMode = event.target.checked;
   },
   
 },
-  // mounted() {
-  //     this.loadContent();
-  // },
- 
-
 }
-</script>
+</script scoped>
 
 <style scoped>
 body {

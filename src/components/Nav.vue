@@ -1,33 +1,22 @@
 <template>
   <nav class="navbar navbar-expand-md" :class="{'navbar-dark' :isDarkMode, 'bg-dark' : isDarkMode, 'navbar-light': !isDarkMode}">
-    <router-link to="/" class="navbar-brand fs-3 ms-3 text-warning">Home</router-link>
-    <span> || </span>
-    <router-link to="/about" class="nav-link mx-3 fs-4 text-info">About</router-link>
-    <span> || </span>
-    <router-link to="/projects" class="nav-link mx-3 fs-4 text-primary">Projects</router-link>
-
+    <div class="d-flex justify-content-between">
+      <div class="d-flex align-items-center">
+        <router-link to="/" class="navbar-brand fs-3 ms-3 text-warning mb-0">Home</router-link>
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="d-flex flex-row-reverse">
+          <router-link to="/about" class="nav-link mx-3 fs-4 text-info">About</router-link>
+          <router-link to="/projects" class="nav-link mx-3 fs-4 text-primary">Projects</router-link>
+        </div>
+      </div>
+    </div>
+  
     <button class="navbar-toggler d-flex ms-auto text-warning m-3 d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
       <i class="bi bi-body-text">=</i>
     </button>
 
-    <div class="control">
-
-      
-    </div>
     <div class="collapse navbar-collapse" id="btn">
-
-      <!-- <template v-if="this.$store.state.isAuthenticated">
-        <div class="navbar-nav ms-auto d-flex align-items-center">
-          <router-link to="myAccount" class="nav-item btn btn-primary my-2 me-2">My Account</router-link>
-          <router-link @click="logoutHandler" class="btn btn-danger mx-2" to="/">Logout</router-link>
-        </div>
-      </template>
-      <template v-else>
-        <div class="navbar-nav ms-auto d-flex">
-          <router-link to="/login" class="btn btn-warning mx-2 my-2">Login!</router-link>
-          <router-link to="/signup" class="btn btn-primary my-2 mx-2">SignUp!</router-link>
-        </div>
-      </template> -->
       <div class="d-flex align-items-center justify-content-center mt-2">
         <div class="switch">
           <input
@@ -36,14 +25,12 @@
             class="switch-checkbox"
             v-model="isDarkMode"
           />
-        <label for="themeSwitch" class="switch-label"></label>
-     </div>
+          <label for="themeSwitch" class="switch-label"></label>
+        </div>
       </div>
-     
     </div>
   </nav>
 </template>
-
 
 
 <script>
@@ -64,18 +51,6 @@ export default {
     },
 
     methods: {
-      logoutHandler(){
-        console.log('logout')
-
-        this.$store.commit('removeAccess')
-        localStorage.removeItem('access')
-        localStorage.removeItem('refresh')
-        localStorage.clear()
-        this.$store.state.isAuthenticated= false
-        this.$router.push('/login')
-        
-      },
-
       toggleTheme(){
         this.isDarkMode = event.target.checked
       },
