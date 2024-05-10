@@ -1,4 +1,4 @@
-<template>
+<template class="tore">
 
 <!-- Background image -->
 <div id="intro" class="bg-image shadow-2-strong" >
