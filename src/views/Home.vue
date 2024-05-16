@@ -3,7 +3,7 @@
 <!-- Background image -->
 <div id="intro" class="bg-image shadow-2-strong" >
   <div class="position-relative">
-    <img src="https://images.unsplash.com/photo-1569852741721-ee5a94bf719e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="mainImage img-fluid shadow-lg rounded shadow-img" alt="Fluid Image">
+    <img id="first-back" src="../assets/sitePictures/20230428_190501.jpg" class="mainImage img-fluid shadow-lg rounded shadow-img" alt="Fluid Image">
     <div class="position-absolute top-50 start-50 translate-middle">
       <div class="">
         <h1 class="headers mb-3 text-secondary ">Odtu Metalurji ve Malzeme Bolumu</h1>
@@ -208,6 +208,11 @@ background-color: rgb(252, 243, 243);
 
 li{
   list-style: none;
+}
+
+#first-back {
+  background-size: cover;
+  repeat:
 }
 
 .contentt {
