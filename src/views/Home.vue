@@ -3,11 +3,11 @@
 <!-- Background image -->
 <div id="intro" class="bg-image shadow-2-strong" >
   <div class="position-relative">
-    <img id="first-back" src="../assets/sitePictures/20230428_190501.jpg" class="mainImage img-fluid shadow-lg rounded shadow-img" alt="Fluid Image">
+    <img src="../assets/sitePictures/20230127_175227.jpg" class="mainImage img-fluid rounded shadow-img" alt="Fluid Image">
     <div class="position-absolute top-50 start-50 translate-middle">
       <div class="">
-        <h1 class="headers mb-3 text-secondary ">Odtu Metalurji ve Malzeme Bolumu</h1>
-        <h5 class="headers mb-4 text-secondary ">Nano Materials Field</h5>
+        <h1 class="first-text headers mb-3">Odtu Metalurji ve Malzeme Bolumu</h1>
+        <h5 class="headers mb-4 text-white "><p class="text-primary">Nano </p><p class="text-danger">Materials</p> <p class="text-warning">Field</p></h5>
       </div>
     </div>
   </div>
@@ -185,13 +185,17 @@ body {
 font-family: "KoHo", sans-serif;
 }
 
+.first-text{
+  color: rgb(129, 228, 146);
+}
+
 .headers {
 font-size: 3.5vw;
 }
 
 .mainImage{
-filter: blur(4px);
--webkit-filter: blur(4px);
+filter: blur(1px);
+-webkit-filter: blur(1px);
 }
 
 
@@ -212,7 +216,6 @@ li{
 
 #first-back {
   background-size: cover;
-  repeat:
 }
 
 .contentt {
