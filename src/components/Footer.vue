@@ -1,8 +1,8 @@
 <template>
     <footer>
-        <div id="footer1" class="position-relative fixed-bottom py-4 text-center text-secondary bg-dark">
+        <div id="footer1" class="position-relative fixed-bottom py-2 text-center text-secondary bg-dark">
             <span class="text-white">All Rights Reserved @Metu Engineering Section</span>
-            <div class="row py-6 mt-3">
+            <div class="row py-6 mt-2">
                 <ul>
                     <li>
                     <p class="text-white">Adress:Odtu Engineering Section Material Engineering</p>

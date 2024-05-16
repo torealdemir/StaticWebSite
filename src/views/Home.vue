@@ -6,7 +6,7 @@
     <img src="../assets/sitePictures/pict3.jpg" class="mainImage img-fluid rounded shadow-img" alt="Fluid Image">
     <div class="position-absolute top-50 start-50 translate-middle">
       <div class="first-texts">
-        <h1 class="headers mb-3 text-white">Odtu Metalurji ve Malzeme Bolumu</h1>
+        <h1 class="headers mb-3 text-white">Odtu Metalurji ve Material Section</h1>
         <h5 class="headers mb-4 text-white ">Nano Materials Field</h5>
       </div>
     </div>
@@ -90,7 +90,7 @@
               Some quick example text to build on the card title and make up the bulk of the
               card's content.
             </p>
-            <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+            <a href="#!" class="button1 btn btn-warning" data-mdb-ripple-init>Button</a>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@
               Some quick example text to build on the card title and make up the bulk of the
               card's content.
             </p>
-            <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+            <a href="#!" class="button2 btn btn-primary" data-mdb-ripple-init>Button</a>
           </div>
         </div>
       </div>
@@ -128,7 +128,7 @@
               Some quick example text to build on the card title and make up the bulk of the
               card's content.
             </p>
-            <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+            <a href="#!" class="button3 btn btn-primary" data-mdb-ripple-init>Button</a>
           </div>
         </div>
       </div>
@@ -193,7 +193,34 @@ font-family: "KoHo", sans-serif;
 font-size: 3.5vw;
 }
 
+.button2 {
+  background-color: rgb(106, 210, 252);
+  color: black;
+  border: none;
+}
 
+.button3 {
+  background-color: rgb(0, 225, 255);
+  border: none;
+  color:black;
+}
+.button2:hover{
+  transition: 0.5s;
+  scale: 1.1;
+  color: white;
+}
+
+.button1:hover{
+  transition: 0.5s;
+  scale: 1.1;
+  color: white;
+} 
+
+.button3:hover {
+  transition: 0.5s;
+  scale: 1.1;
+  color: white;
+}
 
 .cutter {
 height: 8vh;

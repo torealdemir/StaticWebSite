@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-md" :class="{'navbar-dark' :isDarkMode, 'bg-dark' : isDarkMode, 'navbar-light': !isDarkMode}">
     <div class="d-flex justify-content-between">
       <div class="d-flex align-items-center">
-        <router-link to="/" class="navbar-brand fs-3 ms-3 text-warning mb-0">Home</router-link>
+        <router-link to="/" class="tr navbar-brand fs-3 ms-3">Nano!</router-link>
       </div>
       <div class="d-flex align-items-center">
         <div class="d-flex flex-row-reverse">
@@ -62,6 +62,15 @@ export default {
 
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+.tr {
+  font-family: "Wallpoet", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #65a30d;
+}
+
 .switch {
   position: relative;
   display: inline-block;

@@ -73,16 +73,16 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
+ @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+<style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #3d78b4;
-  margin-bottom: 20vh;
+  font-family: "Montserrat", sans-serif;
 }
 
+html,
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+  }
 
 </style>
