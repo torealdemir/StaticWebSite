@@ -3,11 +3,11 @@
 <!-- Background image -->
 <div id="intro" class="bg-image shadow-2-strong" >
   <div class="position-relative">
-    <img src="../assets/sitePictures/20230127_175227.jpg" class="mainImage img-fluid rounded shadow-img" alt="Fluid Image">
+    <img src="../assets/sitePictures/pict3.jpg" class="mainImage img-fluid rounded shadow-img" alt="Fluid Image">
     <div class="position-absolute top-50 start-50 translate-middle">
-      <div class="">
-        <h1 class="first-text headers mb-3">Odtu Metalurji ve Malzeme Bolumu</h1>
-        <h5 class="headers mb-4 text-white "><p class="text-primary">Nano </p><p class="text-danger">Materials</p> <p class="text-warning">Field</p></h5>
+      <div class="first-texts">
+        <h1 class="headers mb-3 text-white">Odtu Metalurji ve Malzeme Bolumu</h1>
+        <h5 class="headers mb-4 text-white ">Nano Materials Field</h5>
       </div>
     </div>
   </div>
@@ -185,8 +185,8 @@ body {
 font-family: "KoHo", sans-serif;
 }
 
-.first-text{
-  color: rgb(129, 228, 146);
+.first-texts{
+  margin-bottom: 80%;
 }
 
 .headers {
