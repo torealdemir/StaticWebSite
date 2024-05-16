@@ -37,7 +37,7 @@
     <div class="row">
       <div class="col-md-6 col-sm-8 mb-4">
         <div class="bg-image hover-overlay shadow-2-strong" data-mdb-ripple-init data-mdb-ripple-color="light">
-          <img src="https://plus.unsplash.com/premium_photo-1664036937272-6ae6080d2d51?q=80&w=1950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded" />
+          <img src="../assets/sitePictures/pict1.jpg" class="img-fluid rounded" />
           <a href="#!">
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
           </a>
@@ -79,7 +79,7 @@
       <div class="col-lg-4 col-md-12 mb-4">
         <div class="card">
           <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-            <img src="https://plus.unsplash.com/premium_photo-1661382310239-8958f2c87f3f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" />
+            <img src="../assets/sitePictures/pict2.jpg" class="img-fluid" />
             <a href="#!">
               <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
             </a>
@@ -98,7 +98,7 @@
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card">
           <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-            <img src="https://plus.unsplash.com/premium_photo-1681426645543-ba5027b4c6ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded" />
+            <img src="../assets/sitePictures/pict1.jpg" class="img-fluid rounded" />
             <a href="#!">
               <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
             </a>
@@ -117,7 +117,7 @@
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card">
           <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-            <img src="https://plus.unsplash.com/premium_photo-1681426678542-613c306013e1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" />
+            <img src="../assets/sitePictures/pict5.jpg" class="img-fluid" />
             <a href="#!">
               <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
             </a>
@@ -193,10 +193,6 @@ font-family: "KoHo", sans-serif;
 font-size: 3.5vw;
 }
 
-.mainImage{
-filter: blur(1px);
--webkit-filter: blur(1px);
-}
 
 
 .cutter {
