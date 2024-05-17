@@ -1,7 +1,13 @@
 <template>
   <div id="projectDiv">
-    <h1 class="d-flex justify-content-center my-4 text-success">Projects!</h1>
-    <Footer Footer class="fixed-bottom">
+    <h1 class="d-flex justify-content-center my-4 text-success fw-bold text-secondary">Project 1 </h1>
+    <div class="container">
+      <div>
+        <img class="project1" src="../assets/projects/Project1.png" alt="">
+      </div>
+
+    </div>
+    <Footer>
     </Footer>
   </div>
  
@@ -23,10 +29,18 @@ li {
 }
 
 
+.project1 {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
 #projectDiv{
-  height: 150vh;
   background-image: url('../assets/colorful.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+
 </style>

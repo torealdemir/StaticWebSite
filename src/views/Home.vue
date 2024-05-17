@@ -6,8 +6,8 @@
     <img src="../assets/sitePictures/pict3.jpg" class="mainImage img-fluid rounded shadow-img" alt="Fluid Image">
     <div class="position-absolute top-50 start-50 translate-middle">
       <div class="first-texts">
-        <h1 class="headers mb-3 text-white">Odtu Metalurji ve Material Section</h1>
-        <h5 class="headers mb-4 text-white ">Nano Materials Field</h5>
+        <h1 class="headers mb-3 text-white">Odtu Metalurji and Material Section</h1>
+        <h5 class="headers mb-4 text-white">Nano Materials Field</h5>
       </div>
     </div>
   </div>
