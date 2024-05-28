@@ -16,7 +16,8 @@
       <i class="bi bi-body-text">=</i>
     </button>
 
-    <div class="collapse navbar-collapse" id="btn">
+    <div class="collapse navbar-collapse justify-content-end mx-2" id="btn">
+      <div class="d-flex align-items-center mx-3">Mode Toggler</div>
       <div class="d-flex align-items-center justify-content-center mt-2">
         <div class="switch">
           <input

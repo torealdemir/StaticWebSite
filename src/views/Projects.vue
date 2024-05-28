@@ -1,7 +1,8 @@
 <template>
   <div id="projectDiv">
-    <h1 class="d-flex justify-content-center my-4 text-success fw-bold text-secondary">Project 1 </h1>
+    
     <div class="container">
+      <h1 class="d-flex justify-content-center my-4 text-success fw-bold text-secondary">Project 1 </h1>
       <div>
         <img class="project1" src="../assets/projects/Project1.png" alt="">
       </div>
