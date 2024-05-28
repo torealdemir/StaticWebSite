@@ -1,16 +1,14 @@
 <template>
-  <div id="projectDiv">
-    
-    <div class="container">
-      <h1 class="d-flex justify-content-center my-4 text-success fw-bold text-secondary">Project 1 </h1>
-      <div>
-        <img class="project1" src="../assets/projects/Project1.png" alt="">
+  <div class="container bg-secondary ">
+      <h1 class="d-flex justify-content-center my-4 text-warning fw-bold text-secondary py-3">Project 1 </h1>
+      <div class="">
+        <img class="project1" src="../assets/projects/Project1.png" alt="picture of project 1">
       </div>
 
-    </div>
-    <Footer>
-    </Footer>
+    
   </div>
+  <Footer class="mt-3">
+  </Footer>
  
 </template>
 
@@ -37,7 +35,7 @@ li {
   margin-bottom: 20px;
 }
 
-#projectDiv{
+.maindiv{
   background-image: url('../assets/colorful.jpg');
   background-size: cover;
   background-repeat: no-repeat;
